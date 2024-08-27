@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+ {params.needRowsWithNumbers ? <div className={'rows_with_numbers'} ref={rowWithNumbersRef} style={{backgroundColor: theme}}>{state}</div> : <></>}
